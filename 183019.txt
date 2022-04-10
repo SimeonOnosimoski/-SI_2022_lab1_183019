@@ -101,6 +101,7 @@ Author: SimeonOnosimoski <63473218+SimeonOnosimoski@users.noreply.github.com>
 Date:   Sun Apr 10 21:46:29 2022 +0200
 
 
+
 20. git checkout master
 git merge branch1
 
