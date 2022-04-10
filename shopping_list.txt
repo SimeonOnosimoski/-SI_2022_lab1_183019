@@ -1,5 +1,5 @@
 Bread x 1
-Oranges x 5
+Oranges x 8
 Milk x 3
 Apples x 5
 Onions x 3
