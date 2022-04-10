@@ -1,0 +1,112 @@
+4. git clone https://github.com/SimeonOnosimoski/SI_2022_lab1_183019  за да го клонирам на компјутер
+
+5. git add shopping_list.txt за додавање на текстуалната датотека
+  git commit -m "Add 5 items to the shopping list"   (ми излагаше ерор)
+
+6. git add shopping_list.txt
+
+git commit -m "Add quantities to the items."   
+
+7. git branch branch1
+git branch branch2
+
+8. $ git log
+commit e5161a4fb929248b9adde8cd142c3660ea7d6c08 (HEAD -> master, branch2, branch1)
+Author: unknown <s.onosimoski@gmail.com>
+Date:   Sun Apr 10 21:51:56 2022 +0200
+
+    Add quantities to the items
+
+commit 79f1638b8d196d3c440c4ea2a80982675957acd9
+Author: unknown <s.onosimoski@gmail.com>
+Date:   Sun Apr 10 21:49:56 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit e3b67e6fd14256f5e727a622b25b7d8a4b2f9753 (origin/master, origin/HEAD)
+Author: SimeonOnosimoski <63473218+SimeonOnosimoski@users.noreply.github.com>
+Date:   Sun Apr 10 21:46:29 2022 +0200
+
+    Initial commit
+
+
+
+9. git push --all
+
+10. git checkout branch1 - се префрлам на гранката branch1     
+
+11. git add shopping_list.txt
+git commit -m "Change quantity of item #5" 
+
+12. git checkout master - враќање на гранката master
+
+13. git add shopping_list.txt - додавање на новата листа со измената на ставката со број 2
+git commit -m "Change quantity of item #2"
+
+14. git push --all - синхронизирање на сите грани со оддалечениот репозиториум
+
+15. git checkout branch2 - префрлање на гранката branch2
+
+16.  git add shopping_list.txt - додавање на новата листа со измената на ставката со број 4
+git commit -m "Modify item #4"
+
+17. $ git log
+commit 92f4a0f64112de1e8572d85806536bab3d30af54 (HEAD -> branch2)
+Author: unknown <s.onosimoski@gmail.com>
+Date:   Sun Apr 10 21:59:26 2022 +0200
+
+    Modify item #4
+
+commit e5161a4fb929248b9adde8cd142c3660ea7d6c08 (origin/branch2)
+Author: unknown <s.onosimoski@gmail.com>
+Date:   Sun Apr 10 21:51:56 2022 +0200
+
+    Add quantities to the items
+
+commit 79f1638b8d196d3c440c4ea2a80982675957acd9
+Author: unknown <s.onosimoski@gmail.com>
+Date:   Sun Apr 10 21:49:56 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit e3b67e6fd14256f5e727a622b25b7d8a4b2f9753
+Author: SimeonOnosimoski <63473218+SimeonOnosimoski@users.noreply.github.com>
+Date:   Sun Apr 10 21:46:29 2022 +0200
+
+
+18. git add shopping_list.txt
+git commit -amend -m "Modify item #4 and add item #6"
+
+19. $ git log
+commit 8ee3ab1873be819fdd1b1e7eae067339cbe28996 (HEAD -> branch2)
+Author: unknown <s.onosimoski@gmail.com>
+Date:   Sun Apr 10 21:59:26 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit e5161a4fb929248b9adde8cd142c3660ea7d6c08 (origin/branch2)
+Author: unknown <s.onosimoski@gmail.com>
+Date:   Sun Apr 10 21:51:56 2022 +0200
+
+    Add quantities to the items
+
+commit 79f1638b8d196d3c440c4ea2a80982675957acd9
+Author: unknown <s.onosimoski@gmail.com>
+Date:   Sun Apr 10 21:49:56 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit e3b67e6fd14256f5e727a622b25b7d8a4b2f9753
+Author: SimeonOnosimoski <63473218+SimeonOnosimoski@users.noreply.github.com>
+Date:   Sun Apr 10 21:46:29 2022 +0200
+
+
+20. git checkout master
+git merge branch1
+
+21. git merge branch2
+
+22. git add 183019.txt
+git commit -m "Add docs"
+
+23. git push --all

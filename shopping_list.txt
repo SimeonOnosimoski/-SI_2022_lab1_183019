@@ -1,5 +1,11 @@
 Bread x 1
 Oranges x 8
 Milk x 3
+<<<<<<< HEAD
 Apples x 5
 Onions x 7
+=======
+Banana x 5
+Onions x 3
+Juice x 9
+>>>>>>> branch2
