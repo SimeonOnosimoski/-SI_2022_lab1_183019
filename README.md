@@ -3,4 +3,4 @@
 
 Control Graph Flow
 
-![Control Graph Flow](https://user-images.githubusercontent.com/63473218/171938794-eee54d48-79ac-4dee-9dab-b771ff7f91bc.jpg)
+![Control Graph](https://user-images.githubusercontent.com/63473218/171940879-6def756a-620a-49ec-b699-9981ccf21bfb.jpg)
